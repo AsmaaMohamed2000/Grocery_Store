@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import "tailwindcss";
+* {
+  font-family: "Open Sans", sans-serif;
+}
+@media (max-width: 639px) {
+  .cardItems {
+    width: 70%;
+    margin: auto;
+  }
+  .cardItems > div {
+    width: 290px;
+    margin: 40px auto;
+  }
+  .cardItems > div:first-child {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 440px) {
+  .cardItems {
+    width: 100%;
+    margin: auto;
+  }
+  .cardItems > div {
+    margin: 40px auto;
+    width: 250px;
+  }
+  .cardItems > div:first-child {
+    margin-top: 50px;
+  }
+}
+.cardItems > div {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+html {
+  scroll-behavior: smooth;
+}
+#about {
+  background-position: right;
+  background-size: contain;
+}
+@media (max-width: 1024px) {
+  #about {
+    background-position-x: 20%;
+    background-size: cover;
+  }
+}
+
+.cards {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 639px) {
+  .contactform {
+    max-width: 400px;
+    margin: auto;
+  }
+}
