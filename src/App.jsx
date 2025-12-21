@@ -15,9 +15,8 @@ import SignUp from "./components/SignUp";
 import LogIn from "./components/LogIn";
 import Contact from "./components/Contact/Contact";
 import ForgetPassword from "./components/ForgetPassword";
-import UpdateProfile from "./components/UpdateProfile";
 import AuthProvider from "./components/AuthContext";
-import { Toaster } from "react-hot-toast";
+
 
 function App() {
   const router = createBrowserRouter([
@@ -33,10 +32,7 @@ function App() {
       path: "/forgetpassword",
       element: <ForgetPassword />,
     },
-    {
-      path: "/updateprofile",
-      element: <UpdateProfile />,
-    },
+   
     {
       path: "/",
       element: <Layout />,
@@ -65,7 +61,10 @@ function App() {
         { path: "/suggestion", element: <Suggestion /> },
       ],
     },
-  ]);
+  ],{
+    basename:'/Grocery_Store'
+  }
+);
   return (
     <AuthProvider>
       <CartProvider>
