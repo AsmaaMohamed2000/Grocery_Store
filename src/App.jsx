@@ -61,9 +61,7 @@ function App() {
         { path: "/suggestion", element: <Suggestion /> },
       ],
     },
-  ],{
-    basename:'/Grocery_Store'
-  }
+  ]
 );
   return (
     <AuthProvider>
