@@ -1,11 +1,11 @@
 import React from "react";
 import Heading from "../Heading/Heading";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import cust1 from "../../assets/customer1.jpg";
-import cust2 from "../../assets/customer2.jpg";
-import cust3 from "../../assets/customer3.jpg";
-import cust4 from "../../assets/customer4.jpg";
-import cust5 from "../../assets/customer5.jpg";
+import cust1 from "../../assets/customer1-C1pDPVLK.webp";
+import cust2 from "../../assets/customer2-CO6kEFHQ.webp";
+import cust3 from "../../assets/customer3-PocJ9rGJ.webp";
+import cust4 from "../../assets/customer4-5qRM4Jtl.webp";
+import cust5 from "../../assets/customer5-BO9N9mpm.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -41,7 +41,7 @@ function Customer() {
               <SwiperSlide className="bg-zinc-100 rounded-xl p-5" key={item.id}>
                 <div className="flex gap-5 items-center">
                   <div className="w-13 h-13 overflow-hidden rounded-full ">
-                    <img src={item.src} alt="" />
+                    <img loading="lazy" src={item.src} alt="" />
                   </div>
                   <div>
                     <h5 className="font-bold text-lg">{item.name} </h5>

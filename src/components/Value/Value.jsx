@@ -4,7 +4,7 @@ import { FaHeart } from "react-icons/fa";
 import { FaLeaf } from "react-icons/fa6";
 import { FaShieldAlt } from "react-icons/fa";
 import { RiSeedlingFill } from "react-icons/ri";
-import Basket from '../../assets/basket-full-vegetables.png'
+import Basket from '../../assets/basket-full-vegetables-CZuTFg9_.webp'
 function Value() {
       console.log('value')
     const leftValues=values.slice(0,2).map(item=>{

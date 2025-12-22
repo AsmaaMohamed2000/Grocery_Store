@@ -1,5 +1,5 @@
 import React from "react";
-import fresh from "../../assets/fresh-fruits.png";
+import fresh from "../../assets/fresh-fruits-DywwjB04.webp";
 import { useNavigate } from "react-router-dom";
 function AboutUs() {
   const Navigate = useNavigate();

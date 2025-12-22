@@ -1,8 +1,8 @@
 import React from "react";
 import Heading from "../Heading/Heading";
-import fruitsCat from "../../assets/fruits-and-veggies.png";
-import seaFoodCat from "../../assets/meat-and-seafood.png";
-import dairyCat from "../../assets/dairy-and-eggs.png";
+import fruitsCat from "../../assets/fruits-and-veggies-CgQreu9v.webp";
+import seaFoodCat from "../../assets/meat-and-seafood-ByaGhSDD.webp";
+import dairyCat from "../../assets/dairy-and-eggs-nhE5E7Q0.webp";
 import { Link } from "react-router-dom";
 function Category() {
   return (

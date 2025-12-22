@@ -1,5 +1,5 @@
 import React from "react";
-import fruitsFresh from "../../assets/fresh-fruits.png";
+import fruitsFresh from "../../assets/fresh-fruits-DywwjB04.webp";
 function Discount() {
   return (
     <section

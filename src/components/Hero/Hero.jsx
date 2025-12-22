@@ -1,5 +1,5 @@
 import React from "react";
-import Grocery from "../../assets/grocery.png";
+import Grocery from "../../assets/grocery-DbBKyT1r.webp";
 function Hero() {
   return (
     <section className="lg:px-20">
@@ -27,7 +27,7 @@ function Hero() {
           <img
             className="scale-80 sm:scale-75 md:scale-100"
             src={Grocery}
-            alt=""
+            alt="" loading="lazy"
           />
         </div>
       </div>
