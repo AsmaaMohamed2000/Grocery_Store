@@ -35,7 +35,7 @@ export default function Contact() {
   };
 
   return (
-    <section className=" bg-gray-50 py-25 lg:px-4" id="contact">
+    <section className=" bg-gray-50 py-35 md:py-40  lg:px-4" id="contact">
       <div className="max-w-[90%]  mx-auto  grid  sm:grid-cols-2 gap-7 md:gap-7 lg:gap-14">
         {/* LEFT — FORM */}
         <div className="bg-white contactform  shadow-xl p-2 md:p-8 rounded-2xl">

@@ -20,6 +20,10 @@ import AuthProvider from "./components/AuthContext";
 
 function App() {
   const router = createBrowserRouter([
+      {
+      path: "*",
+      element: <div className="h-screen flex justify-center items-center"><p className="text-xl ">page not found</p></div>,
+    },
     {
       path: "/signup",
       element: <SignUp />,

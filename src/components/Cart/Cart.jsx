@@ -35,7 +35,7 @@ function Cart() {
   }
 
   return (
-    <div className="mt-36">
+    <div className="mt-44">
       <div className=" cardItems  max-w-[80%] mb-14  sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-7 md:gap-y-12 md:gap-x-6 gap-7 gap-y-10 md:max-w-[90%] mx-auto">
         {cart.map((item) => (
           <div key={item.id} className="bg-zinc-100  cards p-5  rounded-xl">

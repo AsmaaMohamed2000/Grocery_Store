@@ -6,7 +6,7 @@ import { FaShoppingBasket } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import { FaBarsStaggered } from "react-icons/fa6";
-import { Link, Links, NavLink, useNavigate } from "react-router-dom";
+import { Link,  NavLink, useNavigate } from "react-router-dom";
 import productList from "../ProductList/ProductList";
 import { useCart } from "../ContextCard/contexts/CartProvider";
 
@@ -34,7 +34,7 @@ function Navbar() {
 
       suggestFun(filtered);
       if (filtered.length > 0 && query.trim() !== "") {
-        navigate("/suggestion"); // ✔ now allowed
+        navigate("/suggestion"); 
       } else {
         navigate("/");
       }
@@ -57,7 +57,7 @@ function Navbar() {
         scrolled ? "shadow-lg" : ""
       }`}
     >
-      <nav className="flex  justify-between md:px-5 lg:px-10   h-[14vh] items-center mx-auto sm:px-8 px-4">
+      <nav className="flex  justify-between md:px-5 lg:px-10  py-9   lg:h-[14vh] items-center mx-auto sm:px-8 px-4">
         <a className="xl:text-5xl  text-2xl lg:text-3xl  font-bold" href="">
           {" "}
           Gr<span className="text-orange-500 uppercase">o</span>cify
@@ -194,36 +194,44 @@ function Navbar() {
           }`}
         >
           <li>
-            <a
-              href="/"
+            <NavLink  style={({ isActive }) => ({
+                color: isActive ? "#ea580c" : "#27272a",
+              })}
+              to="/"
               className="font-semibold lg:text-xl md:text-[13px] tracking-wider text-zinc-500 hover:text-orange-500 "
             >
               Home
-            </a>
+            </NavLink>
           </li>
           <li>
-            <Link
+            <NavLink  style={({ isActive }) => ({
+                color: isActive ? "#ea580c" : "#27272a",
+              })}
               to={"/aboutUs"}
               className="font-semibold lg:text-xl md:text-[13px]  tracking-wider text-zinc-800 hover:text-orange-500"
             >
               About Us{" "}
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
-              to={"/Proces"}
+            <NavLink
+              to={"/Proces"}  style={({ isActive }) => ({
+                color: isActive ? "#ea580c" : "#27272a",
+              })}
               className="font-semibold lg:text-xl md:text-[13px]  tracking-wider text-zinc-800 hover:text-orange-500"
             >
               Process
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
-              to={"/contact"}
+            <NavLink
+              to={"/contact"}  style={({ isActive }) => ({
+                color: isActive ? "#ea580c" : "#27272a",
+              })}
               className="font-semibold lg:text-xl md:text-[13px]    tracking-wider text-zinc-800 hover:text-orange-500"
             >
               Contact Us
-            </Link>
+            </NavLink>
           </li>
           <li className="flex p-1 relative border-2 border-orange-500  rounded-full">
             <input

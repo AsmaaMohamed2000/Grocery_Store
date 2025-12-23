@@ -3,7 +3,7 @@ import { FaLeaf, FaIndustry, FaCheckCircle, FaTruck } from "react-icons/fa";
 
 function Proces() {
   return (
-    <section id="proces" className="w-[90%] mx-auto mt-25 py-16 bg-gray-50">
+    <section id="proces" className="w-[90%] mx-auto mt-30 py-16 bg-gray-50">
       <div className="  ">
         <h3 className="text-orange-500 text-2xl font-semibold mb-2">
           Our Process
@@ -12,7 +12,7 @@ function Proces() {
           How We Bring Freshness to Your Table
         </h2>
 
-        <div className="   grid md:grid-cols-2 gap-10 lg:gap-20 xl:gap-30">
+        <div className="   grid md:grid-cols-2 gap-10 lg:gap-20 xl:gap-x-30">
           {/* Sourcing */}
           <div className="bg-white p-6 flex lg:gap-9 gap-4 rounded-lg shadow hover:shadow-lg transition duration-300">
             <div className="text-orange-500 text-3xl lg:text-4xl mb-4 ">

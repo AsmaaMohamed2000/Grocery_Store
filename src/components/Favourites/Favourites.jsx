@@ -19,7 +19,7 @@ function Favourites() {
   }
 
   return (
-    <div className="mt-30">
+    <div className="mt-44">
       <div className=" cardItems  max-w-[80%] mb-14  sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-7 md:gap-y-12 md:gap-x-6 gap-7 gap-y-10 md:max-w-[90%] mx-auto">
         {likedItems.map((item) => (
           <div key={item.id} className="bg-zinc-100 p-5 cards  rounded-xl">

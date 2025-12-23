@@ -3,7 +3,7 @@ import Grocery from "../../assets/grocery-DbBKyT1r.webp";
 function Hero() {
   return (
     <section className="lg:px-20">
-      <div className=" min-h-screen mx-auto px-6 sm:px-10 flex flex-col md:flex-row items-center gap-x-15">
+      <div className="  min-h-screen  mx-auto px-6 sm:px-10 flex flex-col md:flex-row items-center gap-x-15">
         <div className="flex-1 mt-35 md:mt-0">
           <span className="bg-orange-100 text-orange-600 text-xs sm:text-sm lg:text-lg px-5 py-2 rounded-full ">
             Explore Best Quality{" "}

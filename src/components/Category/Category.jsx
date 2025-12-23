@@ -14,7 +14,7 @@ function Category() {
             return (
               <div
                 key={item.id}
-                className=" mt-4  flex flex-col max-w-[400px] md:w-[45%] lg:w-[30%]"
+                className=" mt-4  flex flex-col max-w-[300px] sm:max-w-[400px] md:w-[45%] lg:w-[30%]"
               >
                 <div className="w-full min-h-[200px] relative -mb-10">
                   <img className="absolute bottom-0" src={item.src} alt="" />

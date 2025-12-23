@@ -48,7 +48,7 @@ function Products() {
             );
           })}
         </div>
-        <div className="max-w-[1300px] mx-auto cardItems sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-7 md:gap-y-12 md:gap-x-4 gap-7 gap-y-10 mt-24">
+        <div className="max-w-[550px] md:max-w-[800px]  lg:max-w-[1200px] 2xl:max-w-[1300px] mx-auto cardItems sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-7 2xl:gap-x-12 md:gap-y-12 md:gap-x-5 gap-7 gap-y-10 sm:gap-x-10 mt-24">
           {renderCards}
         </div>
         <div className="text-center mt-16  ">

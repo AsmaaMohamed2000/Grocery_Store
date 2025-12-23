@@ -5,6 +5,10 @@ This is a modern *React* e-commerce application for an *organic grocery store*.
 Users can browse products, filter by categories, add items to the cart, manage their favorites, and handle authentication using *Firebase*.
 
 ---
+# 🌐 Live Demo
+
+Check out the live version of *Grocify* here:  
+[🔗 Live Demo](https://grocery-store-3b694.web.app/)
 
 ## Features
 - *Responsive Layout:* Optimized for mobile, tablet, and desktop.
@@ -109,8 +113,18 @@ Users can browse products, filter by categories, add items to the cart, manage t
 1. Clone the repository:  
 ```bash
 git clone https://github.com/AsmaaMohamed2000/Grocery_Store.git
+```
+2. Install dependencies 
+```bash
+npm install
+```
+3. Run the project
+```bash
+npm run dev
+```
 
-## Notes
+# Notes
+
 - Firebase configuration is required for authentication.
 
 - EmailJS setup is required for contact form functionality.

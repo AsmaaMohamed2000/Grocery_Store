@@ -14,7 +14,7 @@ function AboutUs() {
       className={`w-full pt-5  bg-cover
 bg-right `}
     >
-      <div className="mx-auto max-w-[80%] mt-25 py-12">
+      <div className="mx-auto max-w-[80%]  mt-30 py-12">
         <div>
           <h3 className="text-orange-500 font-semibold mb-2">About Us</h3>
           <h2 className="lg:text-3xl md:text-2xl text-lg font-bold text-gray-800 leading-snug">
